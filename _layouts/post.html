@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    {% if page.featured_image %}
+    <img src="/assets/{{ page.featured_image }}"/>
+    {% endif %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+  <ul id="categories">
+    {% for category in page.categories %}
+    <li>{{ category }}</li>
+    {% endfor %}
+   </ul>
+</div>

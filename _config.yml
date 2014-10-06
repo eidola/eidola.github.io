@@ -1,0 +1,13 @@
+# Site settings
+title: Eidola Records
+email: info@eidolarecords.co.uk
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: eidolarecords
+github_username:  eidola
+collections:
+  artists:
+    output: true
+# Build settings
+markdown: kramdown

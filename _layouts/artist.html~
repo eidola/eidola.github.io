@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="artist">
+
+  <header class="post-header">
+    {% if page.featured_image %}
+    <img src="/assets/{{page.featured_image %}}"/>
+    {% endif %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p>{{page.description }}</p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+  <ul id="categories">
+    {% for category in page.categories %}
+    <li>{{ category }}</li>
+    {% endfor %}
+   </ul>
+</div>
