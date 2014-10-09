@@ -4,10 +4,10 @@ Syntax error: Invalid CSS after "-": expected number or function, was "--"
 
 1: ---
 2: ---
-3: 
-4: @charset "utf-8";
-5: 
-6: $base-font-family: Prociono, Junction, sherif;
+3: @charset "utf-8";
+4: 
+5: $base-font-family: Prociono, Junction, sherif;
+6: $base-font-size: 16px;
 
 Backtrace:
 /home/james/Projects/Eidola Records/WWW/jekyll/blog/css/main.scss:1
@@ -46,4 +46,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"-\": expected number or function, was \"--\"\A         on line 1 of /home/james/Projects/Eidola Records/WWW/jekyll/blog/css/main.scss\A \A 1: ---\A 2: ---\A 3: \A 4: @charset \"utf-8\";\A 5: \A 6: $base-font-family: Prociono, Junction, sherif;"; }
+  content: "Syntax error: Invalid CSS after \"-\": expected number or function, was \"--\"\A         on line 1 of /home/james/Projects/Eidola Records/WWW/jekyll/blog/css/main.scss\A \A 1: ---\A 2: ---\A 3: @charset \"utf-8\";\A 4: \A 5: $base-font-family: Prociono, Junction, sherif;\A 6: $base-font-size: 16px;"; }
