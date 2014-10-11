@@ -331,3 +331,11 @@ pre {
 .featured-image {
     border-radius: 5px;
 }
+#related {
+    list-style:none;
+}
+#related > li { float: left }
+#related > li img {
+    width:100px;
+    border-radius: 50%;
+}
