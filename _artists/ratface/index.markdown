@@ -3,6 +3,10 @@ layout: artist
 title:  "Ratface"
 featured_image: "ratface.jpg"
 ---
+{% raw %}
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/2694222&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+{% endraw %}
+
 Bristol based rapper/beat maker Ratface is as much influenced by his old school punk and lo-fi roots, by the squat and free party scene that birthed his early sound and by Bristols dub/reggae bass and soundsystem culture as he is by more traditional hip hop leanings. He has a unique and fresh take on UK hip hop and lyrically you can find him at the opposite end of the spectrum from the more cliched, bling bling side of commercial US rap. Dipping more into social an political observation, personal reflection and storytelling, underpinned by the everyday struggles of a working man.
 
 Ratface has played prolifically all over the Uk for the last 5 years, but due to family commitments and a heavier focus on recording new material now only plays one off/select shows.
