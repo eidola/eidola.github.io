@@ -6,7 +6,7 @@
          url('/assests/fonts/prociono/Prociono-Regular-webfont.woff') format('woff'),
          url('/assests/fonts/prociono/Prociono-Regular-webfont.ttf') format('truetype'),
          url('/assests/fonts/prociono/Prociono-Regular-webfont.svg#league_spartanbold') format('svg');
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
 
 }
