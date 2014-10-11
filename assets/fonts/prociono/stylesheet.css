@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Prociono';
+    src: url('/assests/fonts/prociono/Prociono-Regular-webfont.eot');
+    src: url('/assests/fonts/prociono/Prociono-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assests/fonts/prociono/Prociono-Regular-webfont.woff2') format('woff2'),
+         url('/assests/fonts/prociono/Prociono-Regular-webfont.woff') format('woff'),
+         url('/assests/fonts/prociono/Prociono-Regular-webfont.ttf') format('truetype'),
+         url('/assests/fonts/prociono/Prociono-Regular-webfont.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}

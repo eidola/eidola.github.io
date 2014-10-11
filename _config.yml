@@ -11,3 +11,4 @@ collections:
     output: true
 # Build settings
 markdown: kramdown
+lsi: true

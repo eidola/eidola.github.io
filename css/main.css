@@ -1,4 +1,5 @@
-/* Import partials from `sass_dir` (defaults to `_sass`)*/
+@import '/assets/fonts/league-gothic/stylesheet.css';
+@import '/assets/fonts/league-spartan/stylesheet.css';
 /**
  * Reset some basic elements
  */
@@ -59,7 +60,8 @@ li > ol {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  font-family: "League Gothic"; }
+  font-family: "League Gothic";
+}
 
 /**
  * Links
@@ -266,7 +268,9 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0; 
+ 
+}
 
 .page-heading {
   font-size: 20px; }
@@ -322,3 +326,6 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
+.featured-image {
+    border-radius: 5px;
+}
