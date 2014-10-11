@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Prociono, sherif;
+  font-family: "Prociono";
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -165,7 +165,9 @@ pre {
   line-height: 80px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left; }
+  float: left; 
+  text-transform: uppercase;
+}
   .site-title, .site-title:visited {
     color: #fff; }
 
