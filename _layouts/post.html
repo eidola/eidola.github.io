@@ -14,11 +14,6 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-  <ul id="categories">
-    {% for category in page.categories %}
-    <li>{{ category }}</li>
-    {% endfor %}
-   </ul>
    <ul id="related">
      {% for post in site.related_posts %}
      <li>
