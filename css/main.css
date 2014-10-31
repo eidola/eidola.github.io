@@ -326,6 +326,7 @@ pre {
       font-size: 36px; } }
 
 .post-content {
+    text-align: justify;
   margin-bottom: 30px; }
   .post-content h2 {
     font-size: 32px; }
@@ -359,4 +360,12 @@ pre {
 .artist-image-link img {
     height: 50px;
     border-radius: 50%;
+}
+.post-header .image-wrapper {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+.post-header .image-wrapper img {
+    width: 800px;
 }
