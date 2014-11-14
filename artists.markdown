@@ -10,7 +10,7 @@ permalink: /artists/
     {% for artist in site.artists %}
     <li>
       {% if artist.featured_image %}
-      <img src="/assets/thumbnails/200/{{artist.featured_image}}" class="featured-image" />
+      <img src="/assets/artist/{{ artist.slug}}/200.png" class="featured-image" />
       {% endif %}
       <h2>
         <a class="post-link" href="{{ artist.url | prepend: site.baseurl }}">{{ artist.title }}</a>
