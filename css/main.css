@@ -359,16 +359,17 @@ pre {
     list-style:none;
 }
 #related > li {
-    float: left
+    float: left;
+    margin-right: 5px;
 }
 #related > li > a {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     overflow:hidden;
 }
 #related > li img {
-    width:200px;
-    height: 200px;
+    width:100px;
+    height: 100px;
     border-radius: 5px;
     
 }
