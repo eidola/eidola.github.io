@@ -368,6 +368,8 @@ pre {
 }
 #related > li img {
     width:200px;
+    height: 200px;
+    border-radius: 5px;
     
 }
 .artist-image-link {
