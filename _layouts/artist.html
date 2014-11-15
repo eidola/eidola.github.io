@@ -2,11 +2,11 @@
 layout: default
 ---
 <div class="artist">
-
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+
     <div class="image-wrapper">
       <img src="/assets/artist/{{ page.slug }}/main.png" />
+      <h1 class="post-title">{{ page.title }}</h1>	 
     </div>
   </header>
 
@@ -17,5 +17,5 @@ layout: default
     {% for category in page.categories %}
     <li>{{ category }}</li>
     {% endfor %}
-   </ul>
+  </ul>
 </div>

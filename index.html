@@ -8,7 +8,7 @@ layout: default
     {% for post in site.posts %}
       <li>
 	{% if post.featured_image %}
-	<img src="/assets/thumbnails/200/{{ post.featured_image }}" class="featured-image" />
+	<img src="assets/{{ post.featured_image }}" class="featured-image" />
 	{% endif %}
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
 	<h2>

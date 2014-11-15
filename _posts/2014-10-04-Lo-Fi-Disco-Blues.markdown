@@ -6,7 +6,7 @@ artist: "Sean King"
 featured_image: "artist/sean-james-king/main.png"
 categories: reissue sean event
 ---
-Reissue of Classic Eidola Records release from 1998/9
+[Sean James King's](/artists/sean-james-king) Lo-fi Disco Blues is a single 40 minute guitar drone originally released as *E011CD* in 2002.
 {% raw %}
 <iframe style="border: 0; width: 400px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=1012763728/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless><a href="http://eidolarecords.bandcamp.com/album/lo-fi-disco-blues">Lo-fi Disco Blues by Sean James King</a></iframe>
 {% endraw %}
