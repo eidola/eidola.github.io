@@ -2,7 +2,7 @@
 layout: post
 title:  "Lo-Fi Disco Blues Reissued"
 date:   2014-10-04 11:21:18
-artist: "Sean King"
+artist: "Sean James King"
 featured_image: "artist/sean-james-king/main.png"
 categories: reissue sean event
 ---

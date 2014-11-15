@@ -22,7 +22,7 @@ layout: default
    <ul id="related">
      {% for post in site.related_posts %}
      <li>
-       <a href="{{ post.url }}"><img src="/assets/thumbnails/200/{{ post.featured_image }}" alt="{{ post.title }}" title="{{ post.title }}"/></a>
+       <a href="{{ post.url }}"><img src="/assets/{{ post.featured_image }}" alt="{{ post.title }}" title="{{ post.title }}"/></a>
      </li>
      {% endfor %}
    </ul>

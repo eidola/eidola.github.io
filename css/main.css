@@ -358,10 +358,17 @@ pre {
 #related {
     list-style:none;
 }
-#related > li { float: left }
+#related > li {
+    float: left
+}
+#related > li > a {
+    width: 200px;
+    height: 200px;
+    overflow:hidden;
+}
 #related > li img {
-    width:100px;
-    border-radius: 50%;
+    width:200px;
+    
 }
 .artist-image-link {
     display: inline-block;
