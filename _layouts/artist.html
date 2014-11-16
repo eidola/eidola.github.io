@@ -13,5 +13,13 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-  
+  <h2>Releases</h2>
+  <ul id="releases">
+    {% for release in site.data.releases[page.slug] %}
+    <li>
+      <a href="{{ release.url }}"><img src="/assets/releases/{{ release.title }}/200.png"/></a>
+      <div class="release-title">{{ release.title }}</div>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
