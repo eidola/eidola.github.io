@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Earthbound Ghosts finally see's the light of day"
+title:  "Earthbound Ghosts finally sees the light of day"
 date:   2014-11-15 11:21:18
 artist: "Sean James King"
 featured_image: "artist/sean-james-king/main.png"
