@@ -295,10 +295,11 @@ pre {
   margin-left: 0;
   list-style: none; }
   .post-list > li {
-    float: left;
+      float: left;
+      height: 320px;
     width: 200px;
     margin-right: 30px;
-    margin-bottom: 30px; }
+  }
 
 .featured-image {
   height: 200px; }

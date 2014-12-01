@@ -17,7 +17,7 @@ layout: default
   <ul id="releases">
     {% for release in site.data.releases[page.slug] %}
     <li>
-      <a href="{{ release.url }}"><img src="/assets/releases/{{ release.title }}/200.png"/></a>
+      <a href="{{ site.products}}{{ release.product_id }}"><img src="/assets/releases/{{ release.cat_id }}/200.png"/></a>
       <div class="release-title">{{ release.title }}</div>
     </li>
     {% endfor %}
