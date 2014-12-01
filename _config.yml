@@ -3,6 +3,7 @@ title: Eidola Records
 email: info@eidolarecords.co.uk
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog/
+permalink: /news/:title
 url: "http://www.eidolarecords.co.uk" # the base hostname & protocol for your site
 shop: "http://shop.eidolarecords.co.uk"
 products: "http://shop.eidolarecords.co.uk/products/"

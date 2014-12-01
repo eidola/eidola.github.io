@@ -415,3 +415,10 @@ ul#releases > li > .release-title {
     font-size: 20px;
     line-height: 20px;
 }
+.share-buttons{
+	list-style: none;
+}
+
+.share-buttons li{
+	display: inline;
+}
