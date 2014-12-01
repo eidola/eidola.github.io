@@ -15,8 +15,8 @@ layout: default
   </article>
   <h2>Releases</h2>
   <ul id="releases">
-    {% assign releases = (site.data.releases | where: "artist", page.slug) %}
-    {% for release in  releases %}
+    {% assign releases = (site.data.releases | where: "artist", page.slug | sort: "date" ) %}
+    {% for release in  releases reversed %}
     <li>
       <a href="{{ site.products}}{{ release.product_id }}"><img src="/assets/releases/{{ release.cat_id }}/200.png"/></a>
       <div class="release-title">{{ release.title }}</div>
