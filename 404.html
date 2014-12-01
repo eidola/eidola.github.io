@@ -4,6 +4,14 @@ layout: default
 
 <div class="home">
 
-<h1>NOT FOUND :(</h1>
-
+<h1>SORRY PAGE NOT FOUND :(</h1>
+<p>But why not checkout our latest releases.</p>
+<ul id="releases">
+  {% for release in site.data.releases %}
+  <li>
+    <a href="{{ site.products}}{{ release.product_id }}"><img src="/assets/releases/{{ release.cat_id }}/200.png"/></a>
+    <div class="release-title">{{ release.title }}</div>
+  </li>
+  {% endfor %}
+</ul>
 </div>

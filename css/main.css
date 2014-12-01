@@ -398,6 +398,7 @@ ul#releases {
 ul#releases > li {
     float: left;
     margin-right: 5px;
+    margin-bottom: 5px;
     width: 200px;
     height: 200px;
     overflow: hidden;

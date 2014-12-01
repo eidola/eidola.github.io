@@ -1,33 +1,32 @@
-{
-    "vacuity-basement": [
-	{
-	    "title": "201200",
-	    "product_id": "536659",
-	    "cat_id": "E003"
-	}
-    ],
-    "sean-james-king": [
-	{
+[
+    {
+	"artist": "vacuity-basement",
+	"title": "201200",
+	"product_id": "536659",
+	"cat_id": "E003"
+    },
+    {
+	"artist": "sean-james-king",
 	    "title": "Lofi Disco Blues",
 	    "product_id": "532673",
 	    "cat_id": "E011A"
-	}
-    ],
-    "yo-zushi": [
-	{
-	    "title": "Blue Christmases",
-	    "product_id": "537925",
-	    "cat_id": "E004"
-	},
-	{
-	    "title": "Bye Bye Blackbird",
-	    "product_id": "536658",
-	    "cat_id": "E001"
-	},
-	{
-	    "title": "It Never Entered My Mind",
-	    "product_id": "532595",
-	    "cat_id": "E002"
-	}
-    ]
-}
+    },
+    {
+	"artist": "yo-zushi",
+	"title": "Blue Christmases",
+	"product_id": "537925",
+	"cat_id": "E004"
+    },
+    {
+	"artist": "yo-zushi",
+	"title": "Bye Bye Blackbird",
+	"product_id": "536658",
+	"cat_id": "E001"
+    },
+    {
+	"artist": "yo-zushi",
+	"title": "It Never Entered My Mind",
+	"product_id": "532595",
+	"cat_id": "E002"
+    }
+]
