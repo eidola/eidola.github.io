@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Send Your Love To Me"
+summary: "Video for Yo Zushi's Send Your Love to Me from his forthcoming album"
 date:   2015-01-05 00:00:00
 artist: "Yo Zushi"
 featured_image: "artist/yo-zushi/main.png"
