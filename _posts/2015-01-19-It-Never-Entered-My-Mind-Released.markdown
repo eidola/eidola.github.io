@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "It Never Entered My Mind Released"
+summary: "Yo Zushi's third album It Never Entered My Mind is Out Now."
 date:   2015-01-19 00:00:00
 artist: "Yo Zushi"
 featured_image: "releases/E002/main.png"
