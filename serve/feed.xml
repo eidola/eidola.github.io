@@ -3,58 +3,133 @@
   <channel>
     <title>Eidola Records</title>
     <description></description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>2014-10-09 19:42:22 +0100</pubDate>
-    <lastBuildDate>2014-10-09 19:42:22 +0100</lastBuildDate>
+    <link>http://www.eidolarecords.co.uk/</link>
+    <atom:link href="http://www.eidolarecords.co.uk/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>2015-01-19 06:28:11 +0000</pubDate>
+    <lastBuildDate>2015-01-19 06:28:11 +0000</lastBuildDate>
     <generator>Jekyll v</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div&gt;
-  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;def print_hi(name)
-  puts &amp;quot;Hi, #{name}&amp;quot;
-end
-print_hi('Tom')
-#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
+        <title>It Never Entered My Mind Released</title>
+        <description>&lt;p&gt;We pleased to announce the release of Yo Zushi’s third album &lt;em&gt;&lt;a href=&quot;http://shop.eidolarecords.co.uk/products/532595&quot;&gt;It Never Entered My Mind&lt;/a&gt;&lt;/em&gt; available now from our online shop as CD (including digital download) or just digital download for £10/£7 respectively. The Digital Download is also available via iTunes, Amazon and a host of others if you perfer. &lt;/p&gt;
 </description>
-        <pubDate>2014-10-04 12:21:18 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/10/04/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/10/04/welcome-to-jekyll.html</guid>
+        <pubDate>2015-01-19 00:00:00 +0000</pubDate>
+        <link>http://www.eidolarecords.co.uk/news/It-Never-Entered-My-Mind-Released</link>
+        <guid isPermaLink="true">http://www.eidolarecords.co.uk/news/It-Never-Entered-My-Mind-Released</guid>
         
         
-        <category>jekyll</category>
+        <category>yo</category>
         
-        <category>update</category>
+        <category>zushi</category>
+        
+        <category>video</category>
         
       </item>
     
       <item>
-        <title>Yo Zushi Gig</title>
-        <description>&lt;p&gt;Yo Zushi to play the &lt;em&gt;Railway&lt;/em&gt; in Hackney E8 Sunday 5th October 6pm.&lt;/p&gt;
+        <title>Send Your Love To Me</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/artists/yo-zushi&quot;&gt;Yo Zushi&lt;/a&gt;’s &lt;em&gt;&lt;a href=&quot;http://shop.eidolarecords.co.uk/products/532595&quot;&gt;It Never Entered My Mind&lt;/a&gt;&lt;/em&gt; will be released in two weeks (19th January) but in the mean time check out the video Yo made to accompany the album track &lt;em&gt;Send Your Love to Me&lt;/em&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/7oX2RTfvtcU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
 </description>
-        <pubDate>2014-10-04 12:21:18 +0100</pubDate>
-        <link>http://yourdomain.com/Yo/Zushi/gig/event/2014/10/04/Yo-Zushi-Gig.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/Yo/Zushi/gig/event/2014/10/04/Yo-Zushi-Gig.html</guid>
+        <pubDate>2015-01-05 00:00:00 +0000</pubDate>
+        <link>http://www.eidolarecords.co.uk/news/Send-Your-Love-To-Me-Video</link>
+        <guid isPermaLink="true">http://www.eidolarecords.co.uk/news/Send-Your-Love-To-Me-Video</guid>
         
         
-        <category>Yo</category>
+        <category>yo</category>
         
-        <category>Zushi</category>
+        <category>zushi</category>
         
-        <category>gig</category>
+        <category>video</category>
+        
+      </item>
+    
+      <item>
+        <title>Yo Zushi Christmas Single</title>
+        <description>&lt;p&gt;Ahead of his forth-coming album &lt;em&gt;&lt;a href=&quot;http://shop.eidolarecords.co.uk/products/532595&quot;&gt;It Never Entered My Mind&lt;/a&gt;&lt;/em&gt; &lt;a href=&quot;/artists/yo-zushi&quot;&gt;Yo Zushi&lt;/a&gt; continues his lifelong mission to be his generation’s answer to Mariah Carey or at least Wham, with his new single &lt;em&gt;&lt;a href=&quot;http://shop.eidolarecords.co.uk/products/537925&quot;&gt;Blue Christmases&lt;/a&gt;&lt;/em&gt; available through out December exclusively via our on-line &lt;a href=&quot;http://shop.eidolarecords.co.uk/products/537925&quot;&gt;shop&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/iQQn8Pmpr1E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+</description>
+        <pubDate>2014-12-01 11:21:18 +0000</pubDate>
+        <link>http://www.eidolarecords.co.uk/news/Blue-Christmases</link>
+        <guid isPermaLink="true">http://www.eidolarecords.co.uk/news/Blue-Christmases</guid>
+        
+        
+        <category>yo-zushi</category>
+        
+        <category>xmas</category>
+        
+        <category>single</category>
+        
+      </item>
+    
+      <item>
+        <title>Earthbound Ghosts finally sees the light of day</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/artists/sean-james-king&quot;&gt;Sean James King’s&lt;/a&gt; &lt;em&gt;Earthbound Ghosts&lt;/em&gt; was intended as the companion piece to &lt;em&gt;Lo-fi Disco Blues&lt;/em&gt; with a remixed version produced by Autotistic as the b-side however it was never released either the original nor remixed version. Now 10 years on and foreshadowing a forth coming collaboration between Autotistic and Sean James King the Autotistic remix of &lt;em&gt;Earthbound Ghosts&lt;/em&gt; is finally available as a stream.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/74443499&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
+
+</description>
+        <pubDate>2014-11-15 11:21:18 +0000</pubDate>
+        <link>http://www.eidolarecords.co.uk/news/Earthbound-Ghosts</link>
+        <guid isPermaLink="true">http://www.eidolarecords.co.uk/news/Earthbound-Ghosts</guid>
+        
+        
+        <category>reissue</category>
+        
+        <category>sean</category>
         
         <category>event</category>
+        
+        <category>sjk</category>
+        
+        <category>autotistic</category>
+        
+      </item>
+    
+      <item>
+        <title>Lo-Fi Disco Blues Reissued</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/artists/sean-james-king&quot;&gt;Sean James King’s&lt;/a&gt; Lo-fi Disco Blues is a single 40 minute guitar drone originally released as &lt;em&gt;E011CD&lt;/em&gt; in 2002, has been reissued as part of our &lt;em&gt;Archive&lt;/em&gt; series check the &lt;a href=&quot;http://shop.eidolarecords.co.uk&quot;&gt;shop&lt;/a&gt; for details.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177044580&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
+
+</description>
+        <pubDate>2014-10-04 12:21:18 +0100</pubDate>
+        <link>http://www.eidolarecords.co.uk/news/Lo-Fi-Disco-Blues</link>
+        <guid isPermaLink="true">http://www.eidolarecords.co.uk/news/Lo-Fi-Disco-Blues</guid>
+        
+        
+        <category>reissue</category>
+        
+        <category>sean</category>
+        
+        <category>event</category>
+        
+        <category>sjk</category>
+        
+      </item>
+    
+      <item>
+        <title>Bye Bye Blackbird Video Released</title>
+        <description>
+&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/nzv2cityJvI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+</description>
+        <pubDate>2014-05-22 01:00:00 +0100</pubDate>
+        <link>http://www.eidolarecords.co.uk/news/Bye-Bye-Blackbird-Video</link>
+        <guid isPermaLink="true">http://www.eidolarecords.co.uk/news/Bye-Bye-Blackbird-Video</guid>
+        
+        
+        <category>yo</category>
+        
+        <category>zushi</category>
+        
+        <category>video</category>
         
       </item>
     
