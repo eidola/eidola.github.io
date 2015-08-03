@@ -6,13 +6,13 @@ layout: default
 
 <h1>SORRY PAGE NOT FOUND :(</h1>
 <p>But why not checkout our latest releases.</p>
-<ul id="releases">
-  {% assign releases = (site.data.releases | sort: "date") %}  
-  {% for release in releases reversed %}
-  <li>
-    <a href="{{ site.products}}{{ release.product_id }}"><img src="/assets/releases/{{ release.cat_id }}/200.png"/></a>
-    <div class="release-title">{{ release.title }}</div>
-  </li>
+<div class="post-list">
+  {% for release in site.data.releases | where: "available", true  %}
+  <a href="{{ site.products }}{{ release.product_id }}">
+    <img src="/assets/{{ release.cat_id }}/200.png"/>
+    <h2>{{ release.title }}</h2>
+  </a>
+    
   {% endfor %}
-</ul>
+</div>
 </div>
