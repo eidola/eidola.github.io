@@ -8,11 +8,12 @@ layout: default
 <p>But why not checkout our latest releases.</p>
 <div class="post-list">
   {% for release in site.data.releases | where: "available", true  %}
-  <a href="{{ site.products }}{{ release.product_id }}">
+  <div class="box">
+  <a class="post" href="{{ site.products }}{{ release.product_id }}">
     <img src="/assets/{{ release.cat_id }}.png"/>
     <h2>{{ release.title }}</h2>
   </a>
-    
+  </div>
   {% endfor %}
 </div>
 </div>
