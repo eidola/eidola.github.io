@@ -9,7 +9,7 @@ layout: default
 <div class="post-list">
   {% for release in site.data.releases | where: "available", true  %}
   <a href="{{ site.products }}{{ release.product_id }}">
-    <img src="/assets/{{ release.cat_id }}/200.png"/>
+    <img src="/assets/{{ release.cat_id }}.png"/>
     <h2>{{ release.title }}</h2>
   </a>
     
