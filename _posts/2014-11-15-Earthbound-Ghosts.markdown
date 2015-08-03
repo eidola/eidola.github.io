@@ -3,7 +3,7 @@ layout: post
 title:  "Earthbound Ghosts finally sees the light of day"
 date:   2014-11-15 11:21:18
 artist: "Sean James King"
-featured_image: "artist/sean-james-king/main.png"
+image: "sean-james-king.png"
 categories: reissue sean event sjk autotistic
 ---
 [Sean James King's](/artists/sean-james-king) *Earthbound Ghosts* was intended as the companion piece to *Lo-fi Disco Blues* with a remixed version produced by Autotistic as the b-side however it was never released either the original nor remixed version. Now 10 years on and foreshadowing a forth coming collaboration between Autotistic and Sean James King the Autotistic remix of *Earthbound Ghosts* is finally available as a stream.

@@ -1,26 +1,27 @@
 ---
 layout: default
 ---
-<div class="artist">
-  <header class="post-header">
-
-    <div class="image-wrapper">
-      <img src="/assets/artist/{{ page.slug }}/main.png" />
-      <h1 class="post-title">{{ page.title }}</h1>	 
-    </div>
-  </header>
-
+<div class="post">
+  
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-image">
+    <img src="{{ site.baseurl }}/assets/images/{{ page.slug }}.png"/>
+  </div>
+  <p class="post-meta">{{ page.date | date: "%-d %B %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   <article class="post-content">
     {{ content }}
   </article>
   <h2>Releases</h2>
-  <ul id="releases">
-    {% assign releases = (site.data.releases | where: "artist", page.slug | sort: "date" ) %}
+  <div class="post-list">
+    {% assign releases = (site.data.releases | where: "available", true | where: "artist", page.slug | sort: "date" ) %}
     {% for release in  releases reversed %}
-    <li>
-      <a href="{{ site.products}}{{ release.product_id }}"><img src="/assets/releases/{{ release.cat_id }}/200.png"/></a>
-      <div class="release-title">{{ release.title }}</div>
-    </li>
+    <div class="box release">
+      <a class="post" href="{{ site.products }}{{ release.product_id }}">
+	<img src="{{ site.baseurl }}/assets/images/{{ release.cat_id }}.png"/>
+	<h2 class="release-title">{{ release.title }}</h2>
+      </a>
+    </div>
     {% endfor %}
-  </ul>
+  </div>
 </div>
+

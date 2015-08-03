@@ -1,0 +1,39 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+<h2>About</h2>
+<p>Eidola Records formed in the late 1990s around the band <em>Vacuity Basement</em> to release principly avant-garde, noise, experimental and proto free folk genres and sub-genres and so on. The label was eventually wound up as the people involved dissipated and other things took priority. After years of idle threats we're back.</p>
+<h2>Joseph Martin/Joey Chainsaw/Black and White Noise Progression</h2>
+<p>Our first release - <em>The Sylvia Beech EP</em> (as y... records) - featured not only several contributions from Joe but each of the 20 unlimited edition jiffy bag editions featured a different photograph supplied by Joe. The second release and first Eidola Release proper E1CA featured Joe on at least one track, if not more. The artwork for the 3rd was Joe's and so on and so on. Even though we didn't release much of Joe's solo output or, having wound the label up, any of his later output, he was a huge presence in the formation of Eidola Records. Others have assembled his recorded output at the <a href="https://joeychainsawarchive.bandcamp.com/">Joey Chain Archive</a> included most, if not all, of his Eidola Records output.</p>
+
+<h2>Discography (incomplete)</h2>
+<p>Note that the the catelogue numbers have been foolishly recycled.</p>
+
+<div class="about-container">
+  
+  {% for release in site.data.releases %}
+  <div class="about-body" alt="album/ catalogue information">
+    <ul>
+      <li>{{ release.cat_id }}</li>
+      <li>{{ release.title }}</li>
+      <li>{{ release.artist_display }}</li>
+      <li>{{ release.date }}</li>
+      {% if release.formats %}
+      <li>{{ release.formats | array_to_sentence_string }}</li>
+      {% endif %}
+      <li>
+	{% if release.notes %}
+	{{ release.notes | markdownify }}
+	{% endif %}
+      </li>
+      {% if release.product_id %}
+      <li>
+	<a class="post" href="{{ site.products }}{{ release.product_id }}">Buy</a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>

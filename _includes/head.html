@@ -10,9 +10,11 @@
     <meta name="twitter:site" content="@eidolarecords" />
     <meta name="twitter:title" content="{{ page.title }}" />
     <meta name="twitter:description" content="{{ page.summary }}" />
-    <meta name="twitter:image:src" content="{{ site.url }}/assets/{{ page.featured_image }}" />
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/images/{{ page.image }}" />
     {% endif %}
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" >
+    
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
 </head>

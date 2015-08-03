@@ -1,0 +1,39 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import "mixins";
+
+// Fonts
+@include font-face('League Gothic', '/assets/fonts/league-gothic/leaguegothic-regular-webfont');
+@include font-face('Prociono', '/assets/fonts/prociono/Prociono-Regular-webfont');
+
+// Our variables
+$header-font-family: 'League Gothic', Arial, sans-serif;
+$base-font-family: 'Prociono', serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$page-min-width: 300px;
+$page-max-width: 960px;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #a40000;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$pagination-colour-1: #ffb20d;
+$pagination-colour-2: #ff0000;
+$pagination-colour-3: #a40000;
+
+$brand-color-orange: #ffb20d;
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "base", "layout", "limitedrun", "navigation", "social";

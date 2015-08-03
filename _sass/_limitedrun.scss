@@ -1,0 +1,30 @@
+.add-to-cart {
+    margin-bottom: 10px;
+    > a {
+	font-size: 0.5;
+	border: 1px solid $brand-color;
+	border-radius: 2px;
+	margin: 2px;
+	padding: 2px;
+	&:hover {
+	    text-decoration: none;
+	    background-color: lighten($brand-color, 50%);
+	    color: $brand-color;
+	}
+    }
+}
+.post-title {
+    > a {
+	background-color: $brand-color;
+	color: #fff;
+	padding: 2px;
+	margin: 0;
+	&,
+	&:active,
+	&:hover,
+	&:visited {
+	    background-color: $brand-color;
+	    text-decoration: none;
+	}
+    }
+}
