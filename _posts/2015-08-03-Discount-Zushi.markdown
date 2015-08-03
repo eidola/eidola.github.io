@@ -7,4 +7,4 @@ artist: "Yo Zushi"
 image: "yo-zushi.png"
 categories: yo zushi special offer
 ---
- We're having a sale, this week only 50% off all Yo Zushi releases! Whilst stocks last or until close of play Sunday 9th August BST. Discount applied at check out. 
+ We're having a sale, this week only 50% off all Yo Zushi releases! Whilst stocks last or until close of play Sunday 9th August 2015 BST. Discount applied at check out. 
