@@ -7,7 +7,7 @@ layout: default
 <h1>SORRY PAGE NOT FOUND :(</h1>
 <p>But why not checkout our latest releases.</p>
 <div class="post-list">
-  {% for release in { site.data.releases | where: "available", true } %}
+  {% for release in  site.data.releases | where: "available", true  %}
   <div class="box">
   <a class="post" href="{{ site.products }}{{ release.product_id }}">
     <img src="/assets/images/{{ release.cat_id }}.png"/>
