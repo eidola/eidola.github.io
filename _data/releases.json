@@ -1,5 +1,4 @@
 [
-    
     {
 	"artist": "various",
 	"artist_display": "Various",
@@ -129,6 +128,7 @@
 
     {
 	"artist": "yo-zushi",
+	"artist_display": "Yo Zushi",
 	"title": "Bye Bye Blackbird",
 	"product_id": "536658",
 	"cat_id": "E001",
@@ -138,6 +138,7 @@
     },
     {
 	"artist": "yo-zushi",
+	"artist_display": "Yo Zushi",
 	"title": "It Never Entered My Mind",
 	"product_id": "532595",
 	"cat_id": "E002",
@@ -156,11 +157,23 @@
     },
     {
 	"artist": "yo-zushi",
+	"artist_display": "Yo Zushi",
 	"title": "Blue Christmases",
 	"product_id": "537925",
 	"cat_id": "E004",
 	"date": "2014-12-01",
 	"available": false
+    },
+    {
+	"artist": "yo-zushi",
+	"artist_display": "Yo Zushi",
+	"title": "Miskatonic Valentine/Careless Love/I Can’t Wait To See Her Again",
+	"product_id": "556798",
+	"cat_id": "E005",
+	"formats": ["Digital"],
+	"date": "2015-08-10",
+	"available": true,
+	"notes": ""
     },
     {
 	"artist": "sean-james-king",
@@ -170,17 +183,6 @@
 	"formats": ["CD"],
 	"date": "2014-10-04",
 	"available": true
-    },
-    
-    {
-	"artist": "",
-	"artist_display": "",
-	"title": "",
-	"product_id": null,
-	"cat_id": "",
-	"formats": [],
-	"date": "",
-	"available": false,
-	"notes": ""
-    },
+    }
+
 ]
