@@ -183,6 +183,15 @@
 	"formats": ["CD"],
 	"date": "2014-10-04",
 	"available": true
+    },
+    {
+	"artist": "yo-zushi",
+	"artist_display": "Yo Zushi",
+	"title": "Happy New Year",
+	"product_id": "564376",
+	"cat_id": "E007",
+	"formats": ["Digital"],
+	"date": "2015-12-01",
+	"available": true
     }
-
 ]
