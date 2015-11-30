@@ -11,29 +11,44 @@ permalink: /about/
 <h2>Discography (incomplete)</h2>
 <p>Note that the the catelogue numbers have been foolishly recycled.</p>
 
-<div class="about-container">
-  
+<table class="about-container">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Title</th>
+      <th>Artist</th>
+      <th>Date</th>
+      <th>Format</th>
+      <th>Notes</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    
   {% for release in site.data.releases %}
-  <div class="about-body" alt="album/ catalogue information">
-    <ul>
-      <li>{{ release.cat_id }}</li>
-      <li>{{ release.title }}</li>
-      <li>{{ release.artist_display }}</li>
-      <li>{{ release.date }}</li>
+  
+  <tr class="about-body" alt="album/ catalogue information">
+    <td>{{ release.cat_id }}</td>
+    <td>{{ release.title }}</td>
+    <td>{{ release.artist_display }}</td>
+    <td>{{ release.date }}</td>
+    <td>
       {% if release.formats %}
-      <li>{{ release.formats | array_to_sentence_string }}</li>
+      {{ release.formats | array_to_sentence_string }}
       {% endif %}
-      <li>
-	{% if release.notes %}
-	{{ release.notes | markdownify }}
-	{% endif %}
-      </li>
+    </td>
+    <td>
+      {% if release.notes %}
+      {{ release.notes | markdownify }}
+      {% endif %}
+    </td>
+    <td>
       {% if release.product_id %}
-      <li>
-	<a class="post" href="{{ site.products }}{{ release.product_id }}">Buy</a>
-      </li>
+      <a class="post" href="{{ site.products }}{{ release.product_id }}">Buy</a>
       {% endif %}
-    </ul>
-  </div>
+    </td>
+  </tr>
+  
   {% endfor %}
-</div>
+  <tbody>
+</table>
